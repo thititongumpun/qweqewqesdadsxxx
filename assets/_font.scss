@@ -1,0 +1,14 @@
+@font-face { 
+    font-family: NotoSansThai; 
+    src: url('~/static/font/NotoSansThai/NotoSansThai-Regular.ttf'); 
+} 
+ 
+$body-font-family: 'NotoSansThai';
+
+$sizes: 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30;
+
+@each $size in $sizes {
+  .f-#{$size} {
+    font-size: #{$size}+'px' !important;
+  }
+}
