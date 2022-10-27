@@ -105,12 +105,13 @@ export default {
   pwa: {
     icon: {
       fileName: "healthy-whitebg.png",
-      purpose: "maskable",
+      purpose: ["any", "maskable"],
     },
     manifest: {
       name: "Healthy Application",
       short_name: "Healthy App",
       lang: "en",
+      description: "management healthy for better life",
     },
     meta: {
       name: "Healthy Application",
